@@ -1,0 +1,47 @@
+# Local environment
+.venv/
+venv/
+.env
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Datasets
+AudioWAV/
+iemocap/
+data/
+*.wav
+*.flac
+*.mp3
+
+# Experiment outputs and caches
+*_outputs/
+ablation_outputs/
+iemocap_ablation_outputs/
+baseline_comparison_outputs/
+iemocap_baseline_comparison_outputs/
+plain_encoder_speaker_probe_outputs/
+iemocap_plain_encoder_speaker_probe_outputs/
+si_affcbm_egemaps_bd_outputs/
+si_affcbm_outputs/
+wav2vec2_frozen_outputs/
+iemocap_wav2vec2_frozen_outputs/
+.cache/
+
+# Model/checkpoint/cache artifacts
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+
+# Paper-only artifacts
+figures/
+paper_figure_factorization_audit/
+*.pdf
+*.svg
+*.png
+*.jpg
+*.jpeg
